@@ -44,7 +44,7 @@ def main():
 
 	for testcase in range(testcases):
 		max_value = max_list(lines[row+1], lines[row+2])
-		print("max_value", max_value)
+		print(max_value)
 		row += 2
 
 main()
